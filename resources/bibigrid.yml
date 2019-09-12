@@ -1,0 +1,29 @@
+mode: openstack
+
+# ACCESS
+keypair: 
+sshPublicKeyFile: 
+sshPrivateKeyFile: 
+
+sshUser: ubuntu
+region: Bielefeld 
+availabilityZone: default 
+
+subnet: 
+
+masterInstance:
+  type: de.NBI mini + ephemeral 
+  image: c66118a6-fc9c-4771-8709-d91d5eac1c72
+
+workerInstances:
+  - type: de.NBI large + ephemeral 
+    image: c66118a6-fc9c-4771-8709-d91d5eac1c72 
+    count: 2 
+
+useMasterWithPublicIp: yes
+
+#Services
+slurm: yes
+nfs: yes
+theia: yes
+

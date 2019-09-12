@@ -1,7 +1,7 @@
 #  GCB 2019 - BiBiGrid HandsOn 
 
 
-This tutorial is cloned from [de.NBI Wiki](https://cloud.denbi.de/wiki/Tutorials/BiBiGrid/) and reduced/optimized for the HandsOn session at the **2nd de.NBI cloud user meeting in Heidelberg, 2019** .
+This tutorial is cloned from [de.NBI Wiki](https://cloud.denbi.de/wiki/Tutorials/BiBiGrid/) and reduced/optimized for the HandsOn session at the **GCB 2019 in Heidelberg** .
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ Download an Openstack RC file using the Openstack Dashboard:
 -  Project 
 -  API access 
 -  right side drop down button _Download Openstack RC File_ 
--  download Openstack RC File (Identity API v3) 
+-  download _Openstack RC File (Identity API v3)_
 
 ![API_Access](images/api-access.png)
 
@@ -49,7 +49,6 @@ $ source GCB19Tutorial-openrc.sh
 
 ```
 
-
 ### Access
 If not already done, you have to create an ssh key pair, upload your public key to Openstack and give it a name. BiBiGrid supports password protected keys using an ssh agent.
 
@@ -58,6 +57,7 @@ sshPrivateKeyFile: path/to/private/key
 sshPublicKeyFile: path/to/public/key
 keypair : name_of_the_uploaded_keypair
 ``` 
+
 You have to give the *full path* to your private and public key here. The keypair value is the name of the uploaded public key.
 
 #### ssh-user

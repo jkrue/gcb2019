@@ -132,7 +132,6 @@ Choose the number of worker nodes to be started. BiBiGrid supports to start diff
 As mentioned before our cluster is very basic. That means we have to enable a shared fs (**nfs**), a grid batch scheduler (**slurm**) and a web-ide (**theia**).
 Theia is build from sources. This is a time consuming task, depending of your master instance type and the real hardware behind it this takes some time.
 
-Since our demo cluster is small we let the master also do some work (enable *useMasterAsCompute*).
 
 
 ### Verify your configuration.

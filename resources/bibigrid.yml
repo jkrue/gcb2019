@@ -7,7 +7,7 @@ sshPrivateKeyFile:
 
 sshUser: ubuntu
 region: Bielefeld 
-availabilityZone: default 
+availabilityZone: maintenance 
 
 subnet: 
 
